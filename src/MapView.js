@@ -226,6 +226,7 @@ const MapView = ({
             />
             {/* map through spaces, display them and match colors */}
             {getHighlightShapes(spaces).map((space) => {
+              console.log(getMatchingColor(space, colors));
               if (space.position) {
                 return (
                   <Layer
