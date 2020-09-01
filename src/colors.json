@@ -1,0 +1,2133 @@
+{
+  "data": [
+    {
+      "id": "18720-office",
+      "type": "zone",
+      "attributes": {
+        "parent_id": "18720",
+        "is_partition": 0,
+        "kind": "office",
+        "name": "Offices",
+        "color": [
+          "#77AB69",
+          "#8AB97F",
+          "#A4D296",
+          "#B2DAA7",
+          "#4B733F",
+          "#609253"
+        ]
+      }
+    },
+    {
+      "id": "18720-desk",
+      "type": "zone",
+      "attributes": {
+        "parent_id": "18720",
+        "is_partition": 0,
+        "kind": "desk",
+        "name": "Desks",
+        "color": [
+          "#2F80ED",
+          "#6DA6F2",
+          "#ACCCF8",
+          "#D5E6FB",
+          "#0650B6",
+          "#106AE7"
+        ]
+      }
+    },
+    {
+      "id": "18720-conference_room",
+      "type": "zone",
+      "attributes": {
+        "parent_id": "18720",
+        "is_partition": 0,
+        "kind": "conference_room",
+        "name": "Conference Rooms",
+        "color": [
+          "#946CD7",
+          "#B498E3",
+          "#D4C4EF",
+          "#EAE2F7",
+          "#784BC2",
+          "#5D2EAB"
+        ]
+      }
+    },
+    {
+      "id": "18720-desk_area",
+      "type": "zone",
+      "attributes": {
+        "parent_id": "18720",
+        "is_partition": 0,
+        "kind": "desk_area",
+        "name": "Desk Areas",
+        "color": [
+          "#1481BA",
+          "#3E97C6",
+          "#69AED3",
+          "#94C5DF",
+          "#0D5377",
+          "#116A99"
+        ]
+      }
+    },
+    {
+      "id": "18720-lounge_area",
+      "type": "zone",
+      "attributes": {
+        "parent_id": "18720",
+        "is_partition": 0,
+        "kind": "lounge_area",
+        "name": "Lounge Areas",
+        "color": [
+          "#6ABEBE",
+          "#97D1D1",
+          "#C3E5E5",
+          "#E1F2F2",
+          "#288585",
+          "#419999"
+        ]
+      }
+    },
+    {
+      "id": "18720-collaboration_room",
+      "type": "zone",
+      "attributes": {
+        "parent_id": "18720",
+        "is_partition": 0,
+        "kind": "collaboration_room",
+        "name": "Collaboration Rooms",
+        "color": [
+          "#EFB74C",
+          "#FFCF73",
+          "#FFDD9E",
+          "#FFEECF",
+          "#DE9D23",
+          "#AC7610"
+        ]
+      }
+    },
+    {
+      "id": "18720-phone_booth",
+      "type": "zone",
+      "attributes": {
+        "parent_id": "18720",
+        "is_partition": 0,
+        "kind": "phone_booth",
+        "name": "Phone Booths",
+        "color": [
+          "#556986",
+          "#79889F",
+          "#ABB5C3",
+          "#D5DAE1",
+          "#394F70",
+          "#233A5C"
+        ]
+      }
+    },
+    {
+      "id": "18720-activity_zone",
+      "type": "zone",
+      "attributes": {
+        "parent_id": "18720",
+        "is_partition": 0,
+        "kind": "activity_zone",
+        "name": "Activity Zones",
+        "color": [
+          "#E77F67",
+          "#FFAC98",
+          "#FFCDC1",
+          "#FFE6E0",
+          "#C4583E",
+          "#A2381F"
+        ]
+      }
+    },
+    {
+      "id": "18720-big_room",
+      "type": "zone",
+      "attributes": {
+        "parent_id": "18720",
+        "is_partition": 0,
+        "kind": "big_room",
+        "name": "Big Rooms",
+        "color": ["#6a7e4b"]
+      }
+    },
+    {
+      "id": "18720-test_type",
+      "type": "zone",
+      "attributes": {
+        "parent_id": "18720",
+        "is_partition": 0,
+        "kind": "test_type",
+        "name": "Test Types",
+        "color": ["#2F80ED"]
+      }
+    },
+    {
+      "id": "18720-other_test_type",
+      "type": "zone",
+      "attributes": {
+        "parent_id": "18720",
+        "is_partition": 0,
+        "kind": "other_test_type",
+        "name": "Other Test Types",
+        "color": ["#2F80ED"]
+      }
+    },
+    {
+      "id": "18719-office",
+      "type": "zone",
+      "attributes": {
+        "parent_id": "18719",
+        "is_partition": 0,
+        "kind": "office",
+        "name": "Offices",
+        "color": [
+          "#77AB69",
+          "#8AB97F",
+          "#A4D296",
+          "#B2DAA7",
+          "#4B733F",
+          "#609253"
+        ]
+      }
+    },
+    {
+      "id": "18719-desk",
+      "type": "zone",
+      "attributes": {
+        "parent_id": "18719",
+        "is_partition": 0,
+        "kind": "desk",
+        "name": "Desks",
+        "color": [
+          "#2F80ED",
+          "#6DA6F2",
+          "#ACCCF8",
+          "#D5E6FB",
+          "#0650B6",
+          "#106AE7"
+        ]
+      }
+    },
+    {
+      "id": "18719-conference_room",
+      "type": "zone",
+      "attributes": {
+        "parent_id": "18719",
+        "is_partition": 0,
+        "kind": "conference_room",
+        "name": "Conference Rooms",
+        "color": [
+          "#946CD7",
+          "#B498E3",
+          "#D4C4EF",
+          "#EAE2F7",
+          "#784BC2",
+          "#5D2EAB"
+        ]
+      }
+    },
+    {
+      "id": "18719-desk_area",
+      "type": "zone",
+      "attributes": {
+        "parent_id": "18719",
+        "is_partition": 0,
+        "kind": "desk_area",
+        "name": "Desk Areas",
+        "color": [
+          "#1481BA",
+          "#3E97C6",
+          "#69AED3",
+          "#94C5DF",
+          "#0D5377",
+          "#116A99"
+        ]
+      }
+    },
+    {
+      "id": "18719-lounge_area",
+      "type": "zone",
+      "attributes": {
+        "parent_id": "18719",
+        "is_partition": 0,
+        "kind": "lounge_area",
+        "name": "Lounge Areas",
+        "color": [
+          "#6ABEBE",
+          "#97D1D1",
+          "#C3E5E5",
+          "#E1F2F2",
+          "#288585",
+          "#419999"
+        ]
+      }
+    },
+    {
+      "id": "18719-collaboration_room",
+      "type": "zone",
+      "attributes": {
+        "parent_id": "18719",
+        "is_partition": 0,
+        "kind": "collaboration_room",
+        "name": "Collaboration Rooms",
+        "color": [
+          "#EFB74C",
+          "#FFCF73",
+          "#FFDD9E",
+          "#FFEECF",
+          "#DE9D23",
+          "#AC7610"
+        ]
+      }
+    },
+    {
+      "id": "18719-phone_booth",
+      "type": "zone",
+      "attributes": {
+        "parent_id": "18719",
+        "is_partition": 0,
+        "kind": "phone_booth",
+        "name": "Phone Booths",
+        "color": [
+          "#556986",
+          "#79889F",
+          "#ABB5C3",
+          "#D5DAE1",
+          "#394F70",
+          "#233A5C"
+        ]
+      }
+    },
+    {
+      "id": "18719-activity_zone",
+      "type": "zone",
+      "attributes": {
+        "parent_id": "18719",
+        "is_partition": 0,
+        "kind": "activity_zone",
+        "name": "Activity Zones",
+        "color": [
+          "#E77F67",
+          "#FFAC98",
+          "#FFCDC1",
+          "#FFE6E0",
+          "#C4583E",
+          "#A2381F"
+        ]
+      }
+    },
+    {
+      "id": "18719-big_room",
+      "type": "zone",
+      "attributes": {
+        "parent_id": "18719",
+        "is_partition": 0,
+        "kind": "big_room",
+        "name": "Big Rooms",
+        "color": ["#6a7e4b"]
+      }
+    },
+    {
+      "id": "18719-test_type",
+      "type": "zone",
+      "attributes": {
+        "parent_id": "18719",
+        "is_partition": 0,
+        "kind": "test_type",
+        "name": "Test Types",
+        "color": ["#2F80ED"]
+      }
+    },
+    {
+      "id": "18719-other_test_type",
+      "type": "zone",
+      "attributes": {
+        "parent_id": "18719",
+        "is_partition": 0,
+        "kind": "other_test_type",
+        "name": "Other Test Types",
+        "color": ["#2F80ED"]
+      }
+    },
+    {
+      "id": "18721-office",
+      "type": "zone",
+      "attributes": {
+        "parent_id": "18721",
+        "is_partition": 0,
+        "kind": "office",
+        "name": "Offices",
+        "color": [
+          "#77AB69",
+          "#8AB97F",
+          "#A4D296",
+          "#B2DAA7",
+          "#4B733F",
+          "#609253"
+        ]
+      }
+    },
+    {
+      "id": "18721-desk",
+      "type": "zone",
+      "attributes": {
+        "parent_id": "18721",
+        "is_partition": 0,
+        "kind": "desk",
+        "name": "Desks",
+        "color": [
+          "#2F80ED",
+          "#6DA6F2",
+          "#ACCCF8",
+          "#D5E6FB",
+          "#0650B6",
+          "#106AE7"
+        ]
+      }
+    },
+    {
+      "id": "18721-conference_room",
+      "type": "zone",
+      "attributes": {
+        "parent_id": "18721",
+        "is_partition": 0,
+        "kind": "conference_room",
+        "name": "Conference Rooms",
+        "color": [
+          "#946CD7",
+          "#B498E3",
+          "#D4C4EF",
+          "#EAE2F7",
+          "#784BC2",
+          "#5D2EAB"
+        ]
+      }
+    },
+    {
+      "id": "18721-desk_area",
+      "type": "zone",
+      "attributes": {
+        "parent_id": "18721",
+        "is_partition": 0,
+        "kind": "desk_area",
+        "name": "Desk Areas",
+        "color": [
+          "#1481BA",
+          "#3E97C6",
+          "#69AED3",
+          "#94C5DF",
+          "#0D5377",
+          "#116A99"
+        ]
+      }
+    },
+    {
+      "id": "18721-lounge_area",
+      "type": "zone",
+      "attributes": {
+        "parent_id": "18721",
+        "is_partition": 0,
+        "kind": "lounge_area",
+        "name": "Lounge Areas",
+        "color": [
+          "#6ABEBE",
+          "#97D1D1",
+          "#C3E5E5",
+          "#E1F2F2",
+          "#288585",
+          "#419999"
+        ]
+      }
+    },
+    {
+      "id": "18721-collaboration_room",
+      "type": "zone",
+      "attributes": {
+        "parent_id": "18721",
+        "is_partition": 0,
+        "kind": "collaboration_room",
+        "name": "Collaboration Rooms",
+        "color": [
+          "#EFB74C",
+          "#FFCF73",
+          "#FFDD9E",
+          "#FFEECF",
+          "#DE9D23",
+          "#AC7610"
+        ]
+      }
+    },
+    {
+      "id": "18721-phone_booth",
+      "type": "zone",
+      "attributes": {
+        "parent_id": "18721",
+        "is_partition": 0,
+        "kind": "phone_booth",
+        "name": "Phone Booths",
+        "color": [
+          "#556986",
+          "#79889F",
+          "#ABB5C3",
+          "#D5DAE1",
+          "#394F70",
+          "#233A5C"
+        ]
+      }
+    },
+    {
+      "id": "18721-activity_zone",
+      "type": "zone",
+      "attributes": {
+        "parent_id": "18721",
+        "is_partition": 0,
+        "kind": "activity_zone",
+        "name": "Activity Zones",
+        "color": [
+          "#E77F67",
+          "#FFAC98",
+          "#FFCDC1",
+          "#FFE6E0",
+          "#C4583E",
+          "#A2381F"
+        ]
+      }
+    },
+    {
+      "id": "18721-big_room",
+      "type": "zone",
+      "attributes": {
+        "parent_id": "18721",
+        "is_partition": 0,
+        "kind": "big_room",
+        "name": "Big Rooms",
+        "color": ["#6a7e4b"]
+      }
+    },
+    {
+      "id": "18721-test_type",
+      "type": "zone",
+      "attributes": {
+        "parent_id": "18721",
+        "is_partition": 0,
+        "kind": "test_type",
+        "name": "Test Types",
+        "color": ["#2F80ED"]
+      }
+    },
+    {
+      "id": "18721-other_test_type",
+      "type": "zone",
+      "attributes": {
+        "parent_id": "18721",
+        "is_partition": 0,
+        "kind": "other_test_type",
+        "name": "Other Test Types",
+        "color": ["#2F80ED"]
+      }
+    },
+    {
+      "id": "373939-office",
+      "type": "zone",
+      "attributes": {
+        "parent_id": "373939",
+        "is_partition": 0,
+        "kind": "office",
+        "name": "Offices",
+        "color": [
+          "#77AB69",
+          "#8AB97F",
+          "#A4D296",
+          "#B2DAA7",
+          "#4B733F",
+          "#609253"
+        ]
+      }
+    },
+    {
+      "id": "373939-desk",
+      "type": "zone",
+      "attributes": {
+        "parent_id": "373939",
+        "is_partition": 0,
+        "kind": "desk",
+        "name": "Desks",
+        "color": [
+          "#2F80ED",
+          "#6DA6F2",
+          "#ACCCF8",
+          "#D5E6FB",
+          "#0650B6",
+          "#106AE7"
+        ]
+      }
+    },
+    {
+      "id": "373939-conference_room",
+      "type": "zone",
+      "attributes": {
+        "parent_id": "373939",
+        "is_partition": 0,
+        "kind": "conference_room",
+        "name": "Conference Rooms",
+        "color": [
+          "#946CD7",
+          "#B498E3",
+          "#D4C4EF",
+          "#EAE2F7",
+          "#784BC2",
+          "#5D2EAB"
+        ]
+      }
+    },
+    {
+      "id": "373939-desk_area",
+      "type": "zone",
+      "attributes": {
+        "parent_id": "373939",
+        "is_partition": 0,
+        "kind": "desk_area",
+        "name": "Desk Areas",
+        "color": [
+          "#1481BA",
+          "#3E97C6",
+          "#69AED3",
+          "#94C5DF",
+          "#0D5377",
+          "#116A99"
+        ]
+      }
+    },
+    {
+      "id": "373939-lounge_area",
+      "type": "zone",
+      "attributes": {
+        "parent_id": "373939",
+        "is_partition": 0,
+        "kind": "lounge_area",
+        "name": "Lounge Areas",
+        "color": [
+          "#6ABEBE",
+          "#97D1D1",
+          "#C3E5E5",
+          "#E1F2F2",
+          "#288585",
+          "#419999"
+        ]
+      }
+    },
+    {
+      "id": "373939-collaboration_room",
+      "type": "zone",
+      "attributes": {
+        "parent_id": "373939",
+        "is_partition": 0,
+        "kind": "collaboration_room",
+        "name": "Collaboration Rooms",
+        "color": [
+          "#EFB74C",
+          "#FFCF73",
+          "#FFDD9E",
+          "#FFEECF",
+          "#DE9D23",
+          "#AC7610"
+        ]
+      }
+    },
+    {
+      "id": "373939-phone_booth",
+      "type": "zone",
+      "attributes": {
+        "parent_id": "373939",
+        "is_partition": 0,
+        "kind": "phone_booth",
+        "name": "Phone Booths",
+        "color": [
+          "#556986",
+          "#79889F",
+          "#ABB5C3",
+          "#D5DAE1",
+          "#394F70",
+          "#233A5C"
+        ]
+      }
+    },
+    {
+      "id": "373939-activity_zone",
+      "type": "zone",
+      "attributes": {
+        "parent_id": "373939",
+        "is_partition": 0,
+        "kind": "activity_zone",
+        "name": "Activity Zones",
+        "color": [
+          "#E77F67",
+          "#FFAC98",
+          "#FFCDC1",
+          "#FFE6E0",
+          "#C4583E",
+          "#A2381F"
+        ]
+      }
+    },
+    {
+      "id": "373939-big_room",
+      "type": "zone",
+      "attributes": {
+        "parent_id": "373939",
+        "is_partition": 0,
+        "kind": "big_room",
+        "name": "Big Rooms",
+        "color": ["#6a7e4b"]
+      }
+    },
+    {
+      "id": "373939-test_type",
+      "type": "zone",
+      "attributes": {
+        "parent_id": "373939",
+        "is_partition": 0,
+        "kind": "test_type",
+        "name": "Test Types",
+        "color": ["#2F80ED"]
+      }
+    },
+    {
+      "id": "373939-other_test_type",
+      "type": "zone",
+      "attributes": {
+        "parent_id": "373939",
+        "is_partition": 0,
+        "kind": "other_test_type",
+        "name": "Other Test Types",
+        "color": ["#2F80ED"]
+      }
+    },
+    {
+      "id": "338760-office",
+      "type": "zone",
+      "attributes": {
+        "parent_id": "338760",
+        "is_partition": 0,
+        "kind": "office",
+        "name": "Offices",
+        "color": [
+          "#77AB69",
+          "#8AB97F",
+          "#A4D296",
+          "#B2DAA7",
+          "#4B733F",
+          "#609253"
+        ]
+      }
+    },
+    {
+      "id": "338760-desk",
+      "type": "zone",
+      "attributes": {
+        "parent_id": "338760",
+        "is_partition": 0,
+        "kind": "desk",
+        "name": "Desks",
+        "color": [
+          "#2F80ED",
+          "#6DA6F2",
+          "#ACCCF8",
+          "#D5E6FB",
+          "#0650B6",
+          "#106AE7"
+        ]
+      }
+    },
+    {
+      "id": "338760-conference_room",
+      "type": "zone",
+      "attributes": {
+        "parent_id": "338760",
+        "is_partition": 0,
+        "kind": "conference_room",
+        "name": "Conference Rooms",
+        "color": [
+          "#946CD7",
+          "#B498E3",
+          "#D4C4EF",
+          "#EAE2F7",
+          "#784BC2",
+          "#5D2EAB"
+        ]
+      }
+    },
+    {
+      "id": "338760-desk_area",
+      "type": "zone",
+      "attributes": {
+        "parent_id": "338760",
+        "is_partition": 0,
+        "kind": "desk_area",
+        "name": "Desk Areas",
+        "color": [
+          "#1481BA",
+          "#3E97C6",
+          "#69AED3",
+          "#94C5DF",
+          "#0D5377",
+          "#116A99"
+        ]
+      }
+    },
+    {
+      "id": "338760-lounge_area",
+      "type": "zone",
+      "attributes": {
+        "parent_id": "338760",
+        "is_partition": 0,
+        "kind": "lounge_area",
+        "name": "Lounge Areas",
+        "color": [
+          "#6ABEBE",
+          "#97D1D1",
+          "#C3E5E5",
+          "#E1F2F2",
+          "#288585",
+          "#419999"
+        ]
+      }
+    },
+    {
+      "id": "338760-collaboration_room",
+      "type": "zone",
+      "attributes": {
+        "parent_id": "338760",
+        "is_partition": 0,
+        "kind": "collaboration_room",
+        "name": "Collaboration Rooms",
+        "color": [
+          "#EFB74C",
+          "#FFCF73",
+          "#FFDD9E",
+          "#FFEECF",
+          "#DE9D23",
+          "#AC7610"
+        ]
+      }
+    },
+    {
+      "id": "338760-phone_booth",
+      "type": "zone",
+      "attributes": {
+        "parent_id": "338760",
+        "is_partition": 0,
+        "kind": "phone_booth",
+        "name": "Phone Booths",
+        "color": [
+          "#556986",
+          "#79889F",
+          "#ABB5C3",
+          "#D5DAE1",
+          "#394F70",
+          "#233A5C"
+        ]
+      }
+    },
+    {
+      "id": "338760-activity_zone",
+      "type": "zone",
+      "attributes": {
+        "parent_id": "338760",
+        "is_partition": 0,
+        "kind": "activity_zone",
+        "name": "Activity Zones",
+        "color": [
+          "#E77F67",
+          "#FFAC98",
+          "#FFCDC1",
+          "#FFE6E0",
+          "#C4583E",
+          "#A2381F"
+        ]
+      }
+    },
+    {
+      "id": "338760-big_room",
+      "type": "zone",
+      "attributes": {
+        "parent_id": "338760",
+        "is_partition": 0,
+        "kind": "big_room",
+        "name": "Big Rooms",
+        "color": ["#6a7e4b"]
+      }
+    },
+    {
+      "id": "338760-test_type",
+      "type": "zone",
+      "attributes": {
+        "parent_id": "338760",
+        "is_partition": 0,
+        "kind": "test_type",
+        "name": "Test Types",
+        "color": ["#2F80ED"]
+      }
+    },
+    {
+      "id": "338760-other_test_type",
+      "type": "zone",
+      "attributes": {
+        "parent_id": "338760",
+        "is_partition": 0,
+        "kind": "other_test_type",
+        "name": "Other Test Types",
+        "color": ["#2F80ED"]
+      }
+    },
+    {
+      "id": "18711-office",
+      "type": "zone",
+      "attributes": {
+        "parent_id": "18711",
+        "is_partition": 0,
+        "kind": "office",
+        "name": "Offices",
+        "color": [
+          "#77AB69",
+          "#8AB97F",
+          "#A4D296",
+          "#B2DAA7",
+          "#4B733F",
+          "#609253"
+        ]
+      }
+    },
+    {
+      "id": "18711-desk",
+      "type": "zone",
+      "attributes": {
+        "parent_id": "18711",
+        "is_partition": 0,
+        "kind": "desk",
+        "name": "Desks",
+        "color": [
+          "#2F80ED",
+          "#6DA6F2",
+          "#ACCCF8",
+          "#D5E6FB",
+          "#0650B6",
+          "#106AE7"
+        ]
+      }
+    },
+    {
+      "id": "18711-conference_room",
+      "type": "zone",
+      "attributes": {
+        "parent_id": "18711",
+        "is_partition": 0,
+        "kind": "conference_room",
+        "name": "Conference Rooms",
+        "color": [
+          "#946CD7",
+          "#B498E3",
+          "#D4C4EF",
+          "#EAE2F7",
+          "#784BC2",
+          "#5D2EAB"
+        ]
+      }
+    },
+    {
+      "id": "18711-desk_area",
+      "type": "zone",
+      "attributes": {
+        "parent_id": "18711",
+        "is_partition": 0,
+        "kind": "desk_area",
+        "name": "Desk Areas",
+        "color": [
+          "#1481BA",
+          "#3E97C6",
+          "#69AED3",
+          "#94C5DF",
+          "#0D5377",
+          "#116A99"
+        ]
+      }
+    },
+    {
+      "id": "18711-lounge_area",
+      "type": "zone",
+      "attributes": {
+        "parent_id": "18711",
+        "is_partition": 0,
+        "kind": "lounge_area",
+        "name": "Lounge Areas",
+        "color": [
+          "#6ABEBE",
+          "#97D1D1",
+          "#C3E5E5",
+          "#E1F2F2",
+          "#288585",
+          "#419999"
+        ]
+      }
+    },
+    {
+      "id": "18711-collaboration_room",
+      "type": "zone",
+      "attributes": {
+        "parent_id": "18711",
+        "is_partition": 0,
+        "kind": "collaboration_room",
+        "name": "Collaboration Rooms",
+        "color": [
+          "#EFB74C",
+          "#FFCF73",
+          "#FFDD9E",
+          "#FFEECF",
+          "#DE9D23",
+          "#AC7610"
+        ]
+      }
+    },
+    {
+      "id": "18711-phone_booth",
+      "type": "zone",
+      "attributes": {
+        "parent_id": "18711",
+        "is_partition": 0,
+        "kind": "phone_booth",
+        "name": "Phone Booths",
+        "color": [
+          "#556986",
+          "#79889F",
+          "#ABB5C3",
+          "#D5DAE1",
+          "#394F70",
+          "#233A5C"
+        ]
+      }
+    },
+    {
+      "id": "18711-activity_zone",
+      "type": "zone",
+      "attributes": {
+        "parent_id": "18711",
+        "is_partition": 0,
+        "kind": "activity_zone",
+        "name": "Activity Zones",
+        "color": [
+          "#E77F67",
+          "#FFAC98",
+          "#FFCDC1",
+          "#FFE6E0",
+          "#C4583E",
+          "#A2381F"
+        ]
+      }
+    },
+    {
+      "id": "18711-big_room",
+      "type": "zone",
+      "attributes": {
+        "parent_id": "18711",
+        "is_partition": 0,
+        "kind": "big_room",
+        "name": "Big Rooms",
+        "color": ["#6a7e4b"]
+      }
+    },
+    {
+      "id": "18711-test_type",
+      "type": "zone",
+      "attributes": {
+        "parent_id": "18711",
+        "is_partition": 0,
+        "kind": "test_type",
+        "name": "Test Types",
+        "color": ["#2F80ED"]
+      }
+    },
+    {
+      "id": "18711-other_test_type",
+      "type": "zone",
+      "attributes": {
+        "parent_id": "18711",
+        "is_partition": 0,
+        "kind": "other_test_type",
+        "name": "Other Test Types",
+        "color": ["#2F80ED"]
+      }
+    },
+    {
+      "id": "18720",
+      "type": "zone",
+      "attributes": {
+        "parent_id": "18718",
+        "kind": "floor",
+        "name": "3rd Floor",
+        "is_partition": 0,
+        "capacity": 23,
+        "space_ref_id": null,
+        "is_private": false,
+        "max_capacity": null,
+        "map_id": "25675,34948,62108",
+        "micello_api_key": "fSAPGc5kyDKDI6nr6qrys4cXrfLd8u",
+        "health": null,
+        "state": "ready",
+        "height": "9",
+        "sensors_count": 0,
+        "repeaters_count": 0,
+        "gateways_count": 0,
+        "processing": false,
+        "floor_ref_id": "3rd_Floor",
+        "data_integrity": null
+      }
+    },
+    {
+      "id": "339672",
+      "type": "zone",
+      "attributes": {
+        "parent_id": "18711",
+        "kind": "virtual_zone",
+        "name": "US WHOLESALE \u0026 INVESTMENT BANK",
+        "is_partition": 0,
+        "capacity": 0,
+        "space_ref_id": null,
+        "is_private": false,
+        "max_capacity": null,
+        "color": [
+          "#f49a86",
+          "#ffbfb2",
+          "#ffddd6",
+          "#ffeeeb",
+          "#a8422d",
+          "#cc6752"
+        ],
+        "spaces_ids": ["290063"]
+      }
+    },
+    {
+      "id": "339639",
+      "type": "zone",
+      "attributes": {
+        "parent_id": "18711",
+        "kind": "virtual_zone",
+        "name": "BANKWIDE OPERATIONS",
+        "is_partition": 0,
+        "capacity": 0,
+        "space_ref_id": null,
+        "is_private": false,
+        "max_capacity": null,
+        "color": [
+          "#7042db",
+          "#8b65e4",
+          "#ac90ee",
+          "#d5c7f7",
+          "#3d0dad",
+          "#5620d1"
+        ],
+        "spaces_ids": [
+          "289794",
+          "289809",
+          "289952",
+          "289956",
+          "289991",
+          "290021",
+          "290025",
+          "290088",
+          "290070",
+          "290111",
+          "290240",
+          "289971",
+          "290246",
+          "290096",
+          "290072",
+          "290083",
+          "289958",
+          "289805",
+          "289819",
+          "289954",
+          "289989",
+          "290018",
+          "290028",
+          "290087",
+          "290099",
+          "290081",
+          "290247",
+          "289780",
+          "289807",
+          "289798",
+          "289992",
+          "289824",
+          "289803",
+          "289818",
+          "289996",
+          "289960",
+          "289993",
+          "290023",
+          "290085",
+          "290089",
+          "290075",
+          "290114",
+          "290242",
+          "289978",
+          "290066",
+          "289802",
+          "289777",
+          "290244"
+        ]
+      }
+    },
+    {
+      "id": "18710",
+      "type": "zone",
+      "attributes": {
+        "parent_id": "",
+        "kind": "building",
+        "name": "127-SF HQ",
+        "is_partition": 0,
+        "capacity": 88,
+        "space_ref_id": null,
+        "is_private": false,
+        "max_capacity": null,
+        "working_hours": { "to": "17:00", "from": "09:00", "default": 1 },
+        "working_days": {
+          "friday": 1,
+          "monday": 1,
+          "sunday": 0,
+          "default": 1,
+          "tuesday": 1,
+          "saturday": 0,
+          "thursday": 1,
+          "wednesday": 1
+        },
+        "utilisation": {
+          "office": { "min": 10, "days_per_week": 3 },
+          "desk": { "min": 20, "days_per_week": 3 },
+          "conference_room": { "max": 100, "min": 10, "target": 35 },
+          "desk_area": {
+            "max": 100,
+            "min": 10,
+            "days_per_week": 3,
+            "target": 60
+          },
+          "lounge_area": { "max": 100, "min": 10, "target": 15 },
+          "collaboration_room": { "max": 100, "min": 10, "target": 35 },
+          "phone_booth": { "max": 100, "min": 10, "target": 20 },
+          "activity_zone": { "max": 100, "min": 10, "target": 15 },
+          "big_room": { "max": 100, "min": 10, "target": 15 },
+          "test_type": { "max": 100, "min": 10, "target": 15 },
+          "other_test_type": { "max": 100, "min": 10, "target": 15 },
+          "default": 1
+        },
+        "address": "350 California Street San Francisco, CA",
+        "sq_footage_cost": null,
+        "building_timezone": "Pacific Time (US \u0026 Canada)",
+        "avg_utilization": 0,
+        "state": "processing",
+        "processing": false,
+        "building_ref_id": "350_California",
+        "data_integrity": null
+      }
+    },
+    {
+      "id": "339670",
+      "type": "zone",
+      "attributes": {
+        "parent_id": "18711",
+        "kind": "virtual_zone",
+        "name": "OPS \u0026 TECH FOR THE AMERICAS",
+        "is_partition": 0,
+        "capacity": 0,
+        "space_ref_id": null,
+        "is_private": false,
+        "max_capacity": null,
+        "color": [
+          "#7042db",
+          "#8b65e4",
+          "#ac90ee",
+          "#d5c7f7",
+          "#3d0dad",
+          "#5620d1"
+        ],
+        "spaces_ids": ["290033"]
+      }
+    },
+    {
+      "id": "339649",
+      "type": "zone",
+      "attributes": {
+        "parent_id": "18711",
+        "kind": "virtual_zone",
+        "name": "CHIEF CORPORATE ADMIN OFFICE",
+        "is_partition": 0,
+        "capacity": 0,
+        "space_ref_id": null,
+        "is_private": false,
+        "max_capacity": null,
+        "color": [
+          "#5b79d3",
+          "#8099e3",
+          "#b0c1f2",
+          "#d7e0f8",
+          "#1c41af",
+          "#3c5dc1"
+        ],
+        "spaces_ids": ["289821", "290093", "289796", "289827"]
+      }
+    },
+    {
+      "id": "338758",
+      "type": "zone",
+      "attributes": {
+        "parent_id": "",
+        "kind": "building",
+        "name": "724 brannan st",
+        "is_partition": 0,
+        "capacity": 80,
+        "space_ref_id": null,
+        "is_private": false,
+        "max_capacity": null,
+        "working_hours": { "to": "19:00", "from": "06:00", "default": 1 },
+        "working_days": {
+          "friday": 1,
+          "monday": 1,
+          "sunday": 0,
+          "default": 1,
+          "tuesday": 1,
+          "saturday": 0,
+          "thursday": 1,
+          "wednesday": 1
+        },
+        "utilisation": {
+          "office": { "min": 10, "days_per_week": 3 },
+          "desk": { "min": 20, "days_per_week": 3 },
+          "conference_room": { "max": 100, "min": 10, "target": 35 },
+          "desk_area": { "max": 100, "min": 20, "days_per_week": 3 },
+          "lounge_area": { "max": 100, "min": 10, "target": 15 },
+          "collaboration_room": { "max": 100, "min": 10, "target": 35 },
+          "phone_booth": { "max": 100, "min": 10, "target": 20 },
+          "activity_zone": { "max": 100, "min": 10, "target": 15 },
+          "big_room": { "max": 100, "min": 10, "target": 15 },
+          "test_type": { "max": 100, "min": 10, "target": 15 },
+          "other_test_type": { "max": 100, "min": 10, "target": 15 },
+          "default": 1
+        },
+        "address": "724 Brannan StSan Francisco, CA 94103",
+        "sq_footage_cost": null,
+        "building_timezone": null,
+        "avg_utilization": 0,
+        "state": "processing",
+        "processing": false,
+        "building_ref_id": "724_brannan_st",
+        "data_integrity": null
+      }
+    },
+    {
+      "id": "339662",
+      "type": "zone",
+      "attributes": {
+        "parent_id": "18711",
+        "kind": "virtual_zone",
+        "name": "CORPORATE REAL ESTATE OFFSET",
+        "is_partition": 0,
+        "capacity": 0,
+        "space_ref_id": null,
+        "is_private": false,
+        "max_capacity": null,
+        "color": [
+          "#0eb3ef",
+          "#56caf4",
+          "#87d9f7",
+          "#b7e8fa",
+          "#02719c",
+          "#0892c5"
+        ],
+        "spaces_ids": ["289785", "289783", "289779", "289787"]
+      }
+    },
+    {
+      "id": "352542",
+      "type": "zone",
+      "attributes": {
+        "parent_id": "18719",
+        "kind": "virtual_zone",
+        "name": "2y-a",
+        "is_partition": 0,
+        "capacity": 0,
+        "space_ref_id": null,
+        "is_private": false,
+        "max_capacity": null,
+        "color": [
+          "#7042db",
+          "#8b65e4",
+          "#ac90ee",
+          "#d5c7f7",
+          "#3d0dad",
+          "#5620d1"
+        ],
+        "spaces_ids": ["18756", "18730", "18726", "18757", "289913"]
+      }
+    },
+    {
+      "id": "352543",
+      "type": "zone",
+      "attributes": {
+        "parent_id": "18721",
+        "kind": "virtual_zone",
+        "name": "5y-a",
+        "is_partition": 0,
+        "capacity": 0,
+        "space_ref_id": null,
+        "is_private": false,
+        "max_capacity": null,
+        "color": [
+          "#7042db",
+          "#8b65e4",
+          "#ac90ee",
+          "#d5c7f7",
+          "#3d0dad",
+          "#5620d1"
+        ],
+        "spaces_ids": [
+          "18788",
+          "18793",
+          "18794",
+          "18784",
+          "18786",
+          "18787",
+          "18789",
+          "18790",
+          "18792",
+          "18796",
+          "18783",
+          "289849",
+          "289851"
+        ]
+      }
+    },
+    {
+      "id": "339669",
+      "type": "zone",
+      "attributes": {
+        "parent_id": "18711",
+        "kind": "virtual_zone",
+        "name": "FINANCE MANAGEMENT GROUP",
+        "is_partition": 0,
+        "capacity": 0,
+        "space_ref_id": null,
+        "is_private": false,
+        "max_capacity": null,
+        "color": [
+          "#508d7d",
+          "#77a79b",
+          "#aecec6",
+          "#d7e7e3",
+          "#185c4b",
+          "#2f7463"
+        ],
+        "spaces_ids": ["290068"]
+      }
+    },
+    {
+      "id": "339673",
+      "type": "zone",
+      "attributes": {
+        "parent_id": "18711",
+        "kind": "virtual_zone",
+        "name": "RISK MANAGEMENT",
+        "is_partition": 0,
+        "capacity": 0,
+        "space_ref_id": null,
+        "is_private": false,
+        "max_capacity": null,
+        "color": [
+          "#f49a86",
+          "#ffbfb2",
+          "#ffddd6",
+          "#ffeeeb",
+          "#a8422d",
+          "#cc6752"
+        ],
+        "spaces_ids": ["290116"]
+      }
+    },
+    {
+      "id": "335133",
+      "type": "zone",
+      "attributes": {
+        "parent_id": "18719",
+        "kind": "virtual_zone",
+        "name": "TRANSACTION BANKING",
+        "is_partition": 0,
+        "capacity": 0,
+        "space_ref_id": null,
+        "is_private": false,
+        "max_capacity": null,
+        "color": [
+          "#5b79d3",
+          "#8099e3",
+          "#b0c1f2",
+          "#d7e0f8",
+          "#1c41af",
+          "#3c5dc1"
+        ],
+        "spaces_ids": [
+          "18725",
+          "18726",
+          "18732",
+          "18797",
+          "18730",
+          "289908",
+          "289869",
+          "289892",
+          "289928",
+          "289904",
+          "290155",
+          "18723",
+          "18731",
+          "18728",
+          "289902",
+          "289913",
+          "289932"
+        ]
+      }
+    },
+    {
+      "id": "335132",
+      "type": "zone",
+      "attributes": {
+        "parent_id": "18719",
+        "kind": "virtual_zone",
+        "name": "INTEGRATED SERVICES OF AMERICA",
+        "is_partition": 0,
+        "capacity": 0,
+        "space_ref_id": null,
+        "is_private": false,
+        "max_capacity": null,
+        "color": [
+          "#f49a86",
+          "#ffbfb2",
+          "#ffddd6",
+          "#ffeeeb",
+          "#a8422d",
+          "#cc6752"
+        ],
+        "spaces_ids": ["289933"]
+      }
+    },
+    {
+      "id": "335130",
+      "type": "zone",
+      "attributes": {
+        "parent_id": "18719",
+        "kind": "virtual_zone",
+        "name": "FINANCE MANAGEMENT GROUP",
+        "is_partition": 0,
+        "capacity": 0,
+        "space_ref_id": null,
+        "is_private": false,
+        "max_capacity": null,
+        "color": [
+          "#56cb85",
+          "#7fdfa6",
+          "#b3f1cc",
+          "#d9f8e5",
+          "#18a651",
+          "#36b66a"
+        ],
+        "spaces_ids": ["18800", "290140", "289917"]
+      }
+    },
+    {
+      "id": "335131",
+      "type": "zone",
+      "attributes": {
+        "parent_id": "18719",
+        "kind": "virtual_zone",
+        "name": "REGIONAL BANK",
+        "is_partition": 0,
+        "capacity": 0,
+        "space_ref_id": null,
+        "is_private": false,
+        "max_capacity": null,
+        "color": [
+          "#0eb3ef",
+          "#56caf4",
+          "#87d9f7",
+          "#b7e8fa",
+          "#02719c",
+          "#0892c5"
+        ],
+        "spaces_ids": [
+          "18755",
+          "18753",
+          "18727",
+          "18735",
+          "18764",
+          "18798",
+          "18761",
+          "18758",
+          "18760",
+          "289911",
+          "289930",
+          "290139",
+          "290150",
+          "18799",
+          "18751",
+          "18750",
+          "18722",
+          "18724",
+          "18729",
+          "18734",
+          "18762",
+          "18763",
+          "18765",
+          "18766",
+          "18733",
+          "18749",
+          "18756",
+          "18754",
+          "18752",
+          "18757",
+          "18759",
+          "289773",
+          "289834",
+          "289920",
+          "289938",
+          "290156",
+          "290141",
+          "290147",
+          "290152",
+          "289775"
+        ]
+      }
+    },
+    {
+      "id": "335134",
+      "type": "zone",
+      "attributes": {
+        "parent_id": "18719",
+        "kind": "virtual_zone",
+        "name": "BANKWIDE OPERATIONS",
+        "is_partition": 0,
+        "capacity": 0,
+        "space_ref_id": null,
+        "is_private": false,
+        "max_capacity": null,
+        "color": [
+          "#7042db",
+          "#8b65e4",
+          "#ac90ee",
+          "#d5c7f7",
+          "#3d0dad",
+          "#5620d1"
+        ],
+        "spaces_ids": ["289939"]
+      }
+    },
+    {
+      "id": "335135",
+      "type": "zone",
+      "attributes": {
+        "parent_id": "18720",
+        "kind": "virtual_zone",
+        "name": "REGIONAL BANK",
+        "is_partition": 0,
+        "capacity": 0,
+        "space_ref_id": null,
+        "is_private": false,
+        "max_capacity": null,
+        "color": [
+          "#0eb3ef",
+          "#56caf4",
+          "#87d9f7",
+          "#b7e8fa",
+          "#02719c",
+          "#0892c5"
+        ],
+        "spaces_ids": [
+          "18767",
+          "18768",
+          "18779",
+          "18772",
+          "18781",
+          "18773",
+          "18769",
+          "289843",
+          "289845",
+          "290129",
+          "290208",
+          "290211",
+          "290209",
+          "290257",
+          "290260",
+          "18770",
+          "18771",
+          "18774",
+          "18780",
+          "290131",
+          "290206",
+          "290254",
+          "290263"
+        ]
+      }
+    },
+    {
+      "id": "335136",
+      "type": "zone",
+      "attributes": {
+        "parent_id": "18721",
+        "kind": "virtual_zone",
+        "name": "REGIONAL BANK",
+        "is_partition": 0,
+        "capacity": 0,
+        "space_ref_id": null,
+        "is_private": false,
+        "max_capacity": null,
+        "color": [
+          "#0eb3ef",
+          "#56caf4",
+          "#87d9f7",
+          "#b7e8fa",
+          "#02719c",
+          "#0892c5"
+        ],
+        "spaces_ids": [
+          "18782",
+          "18786",
+          "18784",
+          "18787",
+          "18790",
+          "18792",
+          "18795",
+          "18796",
+          "18793",
+          "18794",
+          "18783"
+        ]
+      }
+    },
+    {
+      "id": "335137",
+      "type": "zone",
+      "attributes": {
+        "parent_id": "18721",
+        "kind": "virtual_zone",
+        "name": "TRANSACTION BANKING",
+        "is_partition": 0,
+        "capacity": 0,
+        "space_ref_id": null,
+        "is_private": false,
+        "max_capacity": null,
+        "color": [
+          "#5b79d3",
+          "#8099e3",
+          "#b0c1f2",
+          "#d7e0f8",
+          "#1c41af",
+          "#3c5dc1"
+        ],
+        "spaces_ids": ["18788", "18789", "18791"]
+      }
+    },
+    {
+      "id": "339656",
+      "type": "zone",
+      "attributes": {
+        "parent_id": "18711",
+        "kind": "virtual_zone",
+        "name": "CHIEF OF STAFF",
+        "is_partition": 0,
+        "capacity": 0,
+        "space_ref_id": null,
+        "is_private": false,
+        "max_capacity": null,
+        "color": [
+          "#837ed5",
+          "#aca8e9",
+          "#cdcbf2",
+          "#e4e3fa",
+          "#443ea5",
+          "#605abd"
+        ],
+        "spaces_ids": ["290005", "290031"]
+      }
+    },
+    {
+      "id": "339671",
+      "type": "zone",
+      "attributes": {
+        "parent_id": "18711",
+        "kind": "virtual_zone",
+        "name": "REGIONAL BANK",
+        "is_partition": 0,
+        "capacity": 0,
+        "space_ref_id": null,
+        "is_private": false,
+        "max_capacity": null,
+        "color": [
+          "#508d7d",
+          "#77a79b",
+          "#aecec6",
+          "#d7e7e3",
+          "#185c4b",
+          "#2f7463"
+        ],
+        "spaces_ids": [
+          "289793",
+          "289817",
+          "289973",
+          "289975",
+          "289990",
+          "290009",
+          "290027",
+          "290041",
+          "290105",
+          "290118",
+          "289800",
+          "289963",
+          "289974",
+          "289976",
+          "290008",
+          "290010",
+          "290039",
+          "290043",
+          "290108"
+        ]
+      }
+    },
+    {
+      "id": "335138",
+      "type": "zone",
+      "attributes": {
+        "parent_id": "18721",
+        "kind": "virtual_zone",
+        "name": "US WHOLESALE \u0026 INVESTMENT BANK",
+        "is_partition": 0,
+        "capacity": 0,
+        "space_ref_id": null,
+        "is_private": false,
+        "max_capacity": null,
+        "color": [
+          "#837ed5",
+          "#aca8e9",
+          "#cdcbf2",
+          "#e4e3fa",
+          "#443ea5",
+          "#605abd"
+        ],
+        "spaces_ids": ["18785"]
+      }
+    },
+    {
+      "id": "18719",
+      "type": "zone",
+      "attributes": {
+        "parent_id": "18718",
+        "kind": "floor",
+        "name": "2nd Floor",
+        "is_partition": 0,
+        "capacity": 65,
+        "space_ref_id": null,
+        "is_private": false,
+        "max_capacity": null,
+        "map_id": "25675,34948,62107",
+        "micello_api_key": "fSAPGc5kyDKDI6nr6qrys4cXrfLd8u",
+        "health": null,
+        "state": "ready",
+        "height": "9",
+        "sensors_count": 0,
+        "repeaters_count": 0,
+        "gateways_count": 0,
+        "processing": false,
+        "floor_ref_id": "2nd_Floor",
+        "data_integrity": null
+      }
+    },
+    {
+      "id": "365077",
+      "type": "zone",
+      "attributes": {
+        "parent_id": "18711",
+        "kind": "virtual_zone",
+        "name": "Test",
+        "is_partition": 0,
+        "capacity": 0,
+        "space_ref_id": null,
+        "is_private": false,
+        "max_capacity": null,
+        "color": [
+          "#7042db",
+          "#8b65e4",
+          "#ac90ee",
+          "#d5c7f7",
+          "#3d0dad",
+          "#5620d1"
+        ],
+        "spaces_ids": ["18716"]
+      }
+    },
+    {
+      "id": "18721",
+      "type": "zone",
+      "attributes": {
+        "parent_id": "18718",
+        "kind": "floor",
+        "name": "5th Floor",
+        "is_partition": 0,
+        "capacity": 19,
+        "space_ref_id": null,
+        "is_private": false,
+        "max_capacity": null,
+        "map_id": "25675,34948,62109",
+        "micello_api_key": "fSAPGc5kyDKDI6nr6qrys4cXrfLd8u",
+        "health": null,
+        "state": "ready",
+        "height": "9",
+        "sensors_count": 0,
+        "repeaters_count": 0,
+        "gateways_count": 0,
+        "processing": false,
+        "floor_ref_id": "5th_Floor",
+        "data_integrity": null
+      }
+    },
+    {
+      "id": "373938",
+      "type": "zone",
+      "attributes": {
+        "parent_id": "",
+        "kind": "building",
+        "name": "DUST Testing",
+        "is_partition": 0,
+        "capacity": 2,
+        "space_ref_id": null,
+        "is_private": false,
+        "max_capacity": null,
+        "working_hours": { "to": "18:00", "from": "08:00", "default": 1 },
+        "working_days": {
+          "friday": 1,
+          "monday": 1,
+          "sunday": 0,
+          "default": 1,
+          "tuesday": 1,
+          "saturday": 0,
+          "thursday": 1,
+          "wednesday": 1
+        },
+        "utilisation": {
+          "office": { "min": 10, "days_per_week": 3 },
+          "desk": { "min": 20, "days_per_week": 3 },
+          "conference_room": { "max": 100, "min": 10, "target": 35 },
+          "desk_area": { "max": 100, "min": 20, "days_per_week": 3 },
+          "lounge_area": { "max": 100, "min": 10, "target": 15 },
+          "collaboration_room": { "max": 100, "min": 10, "target": 35 },
+          "phone_booth": { "max": 100, "min": 10, "target": 20 },
+          "activity_zone": { "max": 100, "min": 10, "target": 15 },
+          "big_room": { "max": 100, "min": 10, "target": 15 },
+          "test_type": { "max": 100, "min": 10, "target": 15 },
+          "other_test_type": { "max": 100, "min": 10, "target": 15 },
+          "default": 1
+        },
+        "address": "4 Embarcadero Center, SF",
+        "sq_footage_cost": null,
+        "building_timezone": "Pacific Time (US \u0026 Canada)",
+        "avg_utilization": 0,
+        "state": "ready",
+        "processing": false,
+        "building_ref_id": "DUST_Testing",
+        "data_integrity": null
+      }
+    },
+    {
+      "id": "373939",
+      "type": "zone",
+      "attributes": {
+        "parent_id": "373938",
+        "kind": "floor",
+        "name": "15",
+        "is_partition": 0,
+        "capacity": 2,
+        "space_ref_id": null,
+        "is_private": false,
+        "max_capacity": null,
+        "map_id": "26691,36276,66202",
+        "micello_api_key": "fSAPGc5kyDKDI6nr6qrys4cXrfLd8u",
+        "health": null,
+        "state": "ready",
+        "height": "10",
+        "sensors_count": 0,
+        "repeaters_count": 0,
+        "gateways_count": 0,
+        "processing": false,
+        "floor_ref_id": "15",
+        "data_integrity": null
+      }
+    },
+    {
+      "id": "18718",
+      "type": "zone",
+      "attributes": {
+        "parent_id": "",
+        "kind": "building",
+        "name": "714-200 Pringle",
+        "is_partition": 0,
+        "capacity": 107,
+        "space_ref_id": null,
+        "is_private": false,
+        "max_capacity": null,
+        "working_hours": { "to": "18:00", "from": "08:00", "default": 1 },
+        "working_days": {
+          "friday": 1,
+          "monday": 1,
+          "sunday": 0,
+          "default": 1,
+          "tuesday": 1,
+          "saturday": 0,
+          "thursday": 1,
+          "wednesday": 1
+        },
+        "utilisation": {
+          "office": { "min": 10, "days_per_week": 3 },
+          "desk": { "min": 20, "days_per_week": 3 },
+          "conference_room": { "max": 100, "min": 10, "target": 35 },
+          "desk_area": { "max": 100, "min": 20, "days_per_week": 3 },
+          "lounge_area": { "max": 100, "min": 10, "target": 15 },
+          "collaboration_room": { "max": 100, "min": 10, "target": 35 },
+          "phone_booth": { "max": 100, "min": 10, "target": 20 },
+          "activity_zone": { "max": 100, "min": 10, "target": 15 },
+          "big_room": { "max": 100, "min": 10, "target": 15 },
+          "test_type": { "max": 100, "min": 10, "target": 15 },
+          "other_test_type": { "max": 100, "min": 10, "target": 15 },
+          "default": 1
+        },
+        "address": "200 Pringle Ave, Walnut Creek, CA, 94596",
+        "sq_footage_cost": "50.0",
+        "building_timezone": "Pacific Time (US \u0026 Canada)",
+        "avg_utilization": 0,
+        "state": "ready",
+        "processing": false,
+        "building_ref_id": "200_Pringle",
+        "data_integrity": null
+      }
+    },
+    {
+      "id": "375846",
+      "type": "zone",
+      "attributes": {
+        "parent_id": "18711",
+        "kind": "virtual_zone",
+        "name": "carters group",
+        "is_partition": 0,
+        "capacity": 0,
+        "space_ref_id": null,
+        "is_private": false,
+        "max_capacity": null,
+        "color": ["#a1243b"],
+        "spaces_ids": ["289777", "289779", "289780", "289783"]
+      }
+    },
+    {
+      "id": "338760",
+      "type": "zone",
+      "attributes": {
+        "parent_id": "338758",
+        "kind": "floor",
+        "name": "Ground Floor",
+        "is_partition": 0,
+        "capacity": 80,
+        "space_ref_id": null,
+        "is_private": false,
+        "max_capacity": null,
+        "map_id": "26064,35506,63724",
+        "micello_api_key": "fSAPGc5kyDKDI6nr6qrys4cXrfLd8u",
+        "health": null,
+        "state": "floormap_setup",
+        "height": "0",
+        "sensors_count": 0,
+        "repeaters_count": 0,
+        "gateways_count": 0,
+        "processing": false,
+        "floor_ref_id": "Ground_Floor",
+        "data_integrity": null
+      }
+    },
+    {
+      "id": "18711",
+      "type": "zone",
+      "attributes": {
+        "parent_id": "18710",
+        "kind": "floor",
+        "name": "11th Floor",
+        "is_partition": 0,
+        "capacity": 88,
+        "space_ref_id": null,
+        "is_private": false,
+        "max_capacity": null,
+        "map_id": "25528,34746,61258",
+        "micello_api_key": "fSAPGc5kyDKDI6nr6qrys4cXrfLd8u",
+        "health": null,
+        "state": "device_installation",
+        "height": "9",
+        "sensors_count": 0,
+        "repeaters_count": 0,
+        "gateways_count": 0,
+        "processing": false,
+        "floor_ref_id": "11th_Floor",
+        "data_integrity": null
+      }
+    },
+    {
+      "id": "338759",
+      "type": "zone",
+      "attributes": {
+        "parent_id": "",
+        "kind": "building",
+        "name": "110 Chauncy St",
+        "is_partition": 0,
+        "capacity": 0,
+        "space_ref_id": null,
+        "is_private": false,
+        "max_capacity": null,
+        "working_hours": { "to": "17:00", "from": "09:00", "default": 1 },
+        "working_days": {
+          "friday": 1,
+          "monday": 1,
+          "sunday": 0,
+          "default": 1,
+          "tuesday": 1,
+          "saturday": 0,
+          "thursday": 1,
+          "wednesday": 1
+        },
+        "utilisation": {
+          "office": { "min": 10, "days_per_week": 3 },
+          "desk": { "min": 20, "days_per_week": 3 },
+          "conference_room": { "max": 100, "min": 10, "target": 35 },
+          "desk_area": { "max": 100, "min": 20, "days_per_week": 3 },
+          "lounge_area": { "max": 100, "min": 10, "target": 15 },
+          "collaboration_room": { "max": 100, "min": 10, "target": 35 },
+          "phone_booth": { "max": 100, "min": 10, "target": 20 },
+          "activity_zone": { "max": 100, "min": 10, "target": 15 },
+          "big_room": { "max": 100, "min": 10, "target": 15 },
+          "test_type": { "max": 100, "min": 10, "target": 15 },
+          "other_test_type": { "max": 100, "min": 10, "target": 15 },
+          "default": 1
+        },
+        "address": "110 Chauncy St Boston, MA 02111",
+        "sq_footage_cost": null,
+        "building_timezone": null,
+        "avg_utilization": 0,
+        "state": "ready",
+        "processing": false,
+        "building_ref_id": "110_Chauncy_st",
+        "data_integrity": null
+      }
+    }
+  ]
+}

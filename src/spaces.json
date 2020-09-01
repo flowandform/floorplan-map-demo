@@ -1,0 +1,658 @@
+{
+  "data": [
+    {
+      "type": "floormap_chart",
+      "position": 0,
+      "description": "Shows all conference rooms on the floor",
+      "help": "",
+      "title": "Floormap",
+      "target_utilisation": 21,
+      "data_keys": [],
+      "labels": {},
+      "data": {
+        "map_id": "25528,34746,61258",
+        "micello_api_key": "fSAPGc5kyDKDI6nr6qrys4cXrfLd8u",
+        "spaces": [
+          {
+            "type": "conference_room",
+            "id": 18716,
+            "name": "Big Sur",
+            "polygon": [
+              [
+                [37.79339439280138, -122.40082009724576],
+                [37.79335110190294, -122.40081130803449],
+                [37.793361324495734, -122.40072926164432],
+                [37.79340478563524, -122.40073782755645]
+              ]
+            ]
+          },
+          {
+            "type": "conference_room",
+            "id": 18713,
+            "name": "Redwoods",
+            "polygon": [
+              [
+                [37.79330787773265, -122.40064679419449],
+                [37.7932803483784, -122.40064134530259],
+                [37.79328670186448, -122.40059038333132],
+                [37.79331449978276, -122.40059601819668]
+              ]
+            ]
+          },
+          {
+            "type": "conference_room",
+            "id": 18715,
+            "name": "Pinnacles",
+            "polygon": [
+              [
+                [37.79338056190569, -122.40087493191825],
+                [37.793345345063805, -122.4008683259308],
+                [37.79334948688323, -122.40083122946089],
+                [37.79338477823856, -122.400837756868]
+              ]
+            ]
+          },
+          {
+            "type": "conference_room",
+            "id": 18714,
+            "name": "Canyon",
+            "polygon": [
+              [
+                [37.79324720705854, -122.40063456643841],
+                [37.79328015122264, -122.40064129160601],
+                [37.793286508331036, -122.40059058698536],
+                [37.79325352225474, -122.40058370269256]
+              ]
+            ]
+          }
+        ],
+        "sensors": []
+      }
+    },
+    {
+      "type": "vs_score_chart",
+      "position": 1,
+      "description": "Your VergeSense score is very low. It means you need to improve your office utilization. Check your detailed usage statistics to see how to waste less!",
+      "help": "VS score is the most important indicator of your conference rooms performance, calculated for a selected period of time (week/month/year).\n\nIt illustrates the general state of the conference rooms on a 1-10 scale. The higher score your conference rooms gets - the better utilized it is as a whole.\n\nVS score is based on a complex algorithm that includes among others: number of people, capacity and average utilization of the building. Moreover, it considers different factors for each type of space, as each type of space has it own specificity (eg. conference rooms generally are utilised in different way than lounge areas).\n\nTailored to the space level, VS score gives you a quick yet comprehensive insight into your conference rooms performance.\n\nAdditional information on VergeSense score can be find on Support page.\n",
+      "title": "VS Score",
+      "target_utilisation": 21,
+      "data_keys": [],
+      "labels": {},
+      "data": {
+        "value": 0,
+        "trend": { "value": 0, "date_range": "last 7 days", "pct_unit": 0 }
+      }
+    },
+    {
+      "type": "gauge_chart",
+      "position": 2,
+      "description": "Shows how your space was used on average over selected period of time, juxtaposed with peaks.",
+      "help": "\u003cp\u003eThis chart shows an \u003cstrong\u003eaverage\u003c/strong\u003e percentage \u003cstrong\u003eutilization\u003c/strong\u003e or \u003cstrong\u003eoccupancy\u003c/strong\u003e of the conference rooms.\u003c/p\u003e\n\u003cp\u003eIt gives you also information on how this general \u003cstrong\u003eutilization/occupancy\u003c/strong\u003e changed in comparison to the previous period.\u003c/p\u003e\n\u003cp\u003e•  \u003cstrong\u003eUtilization\u003c/strong\u003e - helps answer the question \"How is the space used compared to capacity?\"\u003c/p\u003e\n\u003cp\u003e•  \u003cstrong\u003eOccupancy\u003c/strong\u003e - helps answer the question \"How often and how many spaces are being used?\"\u003c/p\u003e\n",
+      "title": "What is the average usage of space?",
+      "target_utilisation": 21,
+      "data_keys": ["utilization", "occupancy"],
+      "labels": {},
+      "data": {
+        "utilization": {
+          "value": 0,
+          "trend": { "value": 0, "date_range": "last 7 days", "pct_unit": 1 },
+          "peak": { "name": "Peak", "value": 0, "pct_unit": 1 }
+        },
+        "occupancy": {
+          "value": 0,
+          "trend": { "value": 0, "date_range": "last 7 days", "pct_unit": 1 },
+          "peak": { "name": "Peak", "value": 0, "pct_unit": 1 }
+        }
+      }
+    },
+    {
+      "type": "usage_numbers_chart",
+      "position": 3,
+      "description": "Shows capacity, number of rooms, max number of people and peak times during the day",
+      "help": "Capacity - shows total capacity of conference rooms.\n\nNumber of rooms - shows a number of conference rooms on particular floor.\n\nMax number of people - shows a maximal number of people in conference rooms for a selected period of time.\n\nPeak hour - shows the most busy hour concerning conference rooms, based on data calculated for a selected period of time (week/month/year).\n",
+      "title": "Number of Rooms",
+      "target_utilisation": 21,
+      "data_keys": [],
+      "labels": {},
+      "data": [
+        { "title": "Capacity", "value": 25 },
+        { "title": "Number of Rooms", "value": 4, "trend": null },
+        { "title": "Max Number of People", "value": 0, "trend": null },
+        { "title": "Peak Hour", "value": null, "trend": null }
+      ]
+    },
+    {
+      "type": "usage_numbers_chart",
+      "position": 4,
+      "description": "Shows for what percentage of time during the day, all spaces are empty, all are occupied and how many spaces are occupied for most of the time.",
+      "help": "\u003cp\u003eThis chart provides you an answer to the question: \u003cstrong\u003eDo I have enough spaces?\u003c/strong\u003e\u003c/p\u003e\n\u003cp\u003eIt gives you information about what number of spaces were \u003cstrong\u003ebusy or empty at the same time.\u003c/strong\u003e\u003c/p\u003e\n\u003cp\u003eData are presented for three cases:\u003c/p\u003e\n\u003cp\u003e•  \u003cstrong\u003eAll spaces unoccupied\u003c/strong\u003e - what percent of the day all the spaces were empty at the same time\u003c/p\u003e\n\u003cp\u003e•  \u003cstrong\u003eAll spaces occupied\u003c/strong\u003e - what percent of the day all the spaces were busy at the same time\u003c/p\u003e\n\u003cp\u003e•  \u003cstrong\u003eX of spaces were occupied most of the day\u003c/strong\u003e - shows what number of all spaces were occupied most of the day\u003c/p\u003e\n",
+      "title": "",
+      "target_utilisation": 21,
+      "data_keys": [],
+      "labels": {},
+      "data": [
+        {
+          "title": "All spaces unoccupied for (on average):",
+          "value": "0h 0min",
+          "pct_of_the_day": 0
+        },
+        {
+          "title": "All spaces occupied for (on average):",
+          "value": "0h 0min",
+          "pct_of_the_day": 0
+        }
+      ]
+    },
+    {
+      "type": "bar_chart",
+      "position": 5,
+      "description": "Shows how many people are in the meetings on average",
+      "help": "This chart shows a percentage distribution of meetings of different sizes for a selected period of time (week/month/year).\n\nMeetings are grouped according to the number of participants.\n\nThis chart offers you a quick insight on how many people are in the meetings on average.\nIt gives you also information on how this data changed in comparison to the previous period of time.\u2028\n",
+      "title": "Meeting Size",
+      "target_utilisation": 21,
+      "data_keys": ["distribution"],
+      "labels": { "x_axis_label": "Number of people per meeting" },
+      "data": [
+        {
+          "type": "Person count: 1",
+          "label": "1",
+          "color": "#946CD7",
+          "distribution": 0,
+          "tooltip": {
+            "name": "Distribution",
+            "value": "0%",
+            "trend": { "value": 0, "date_range": "last 7 days", "pct_unit": 1 }
+          }
+        },
+        {
+          "type": "Person count: 2",
+          "label": "2",
+          "color": "#946CD7",
+          "distribution": 0,
+          "tooltip": {
+            "name": "Distribution",
+            "value": "0%",
+            "trend": { "value": 0, "date_range": "last 7 days", "pct_unit": 1 }
+          }
+        },
+        {
+          "type": "Person count: 3-4",
+          "label": "3-4",
+          "color": "#946CD7",
+          "distribution": 0,
+          "tooltip": {
+            "name": "Distribution",
+            "value": "0%",
+            "trend": { "value": 0, "date_range": "last 7 days", "pct_unit": 1 }
+          }
+        },
+        {
+          "type": "Person count: 5-6",
+          "label": "5-6",
+          "color": "#946CD7",
+          "distribution": 0,
+          "tooltip": {
+            "name": "Distribution",
+            "value": "0%",
+            "trend": { "value": 0, "date_range": "last 7 days", "pct_unit": 1 }
+          }
+        },
+        {
+          "type": "Person count: \u003e6",
+          "label": "\u003e6",
+          "color": "#946CD7",
+          "distribution": 0,
+          "tooltip": {
+            "name": "Distribution",
+            "value": "0%",
+            "trend": { "value": 0, "date_range": "last 7 days", "pct_unit": 1 }
+          }
+        }
+      ]
+    },
+    {
+      "type": "bar_chart",
+      "position": 6,
+      "description": "Average utilization of conference rooms of each capacity in your space. This is helps see which space type is used more appropriately by your occupants.",
+      "help": "This chart shows the average utilization for different sized rooms.\n\nUtilization is displayed averaged across all rooms of a given capacity. This chart can show which types of rooms are used most efficiently.\n",
+      "title": "Capacity vs Utilization",
+      "target_utilisation": 21,
+      "data_keys": ["capacity"],
+      "labels": { "x_axis_label": "Room capacity" },
+      "data": []
+    },
+    {
+      "type": "bar_chart",
+      "position": 7,
+      "description": "Average and Peak space utilization for days of the week",
+      "help": "This chart shows an average daily utilization of the conference rooms for a selected period of time (week/month/year).\n\nIt displays data per each working day of the week. This chart offers you a quick insight on during which day of the week your conference rooms is utilized most (or least).\nIt gives you also information on how utilization for each day of the week changed in comparison to the previous period of time.\n",
+      "title": "What are the busiest days of the week?",
+      "target_utilisation": 21,
+      "data_keys": ["utilization", "peak_utilization"],
+      "labels": {
+        "legend_labels": [
+          { "name": "Average Utilization", "type": "primary" },
+          { "name": "Peak Utilization", "type": "secondary" }
+        ]
+      },
+      "data": [
+        {
+          "name": "Monday",
+          "label": "Mo",
+          "utilization": 0,
+          "peak_utilization": 0,
+          "tooltip": {
+            "name": "Utilization",
+            "value": "0%",
+            "trend": { "value": 0, "date_range": "last 7 days", "pct_unit": 1 },
+            "peak": { "name": "Peak Utilization", "value": 0, "pct_unit": 1 }
+          }
+        },
+        {
+          "name": "Tuesday",
+          "label": "Tu",
+          "utilization": 0,
+          "peak_utilization": 0,
+          "tooltip": {
+            "name": "Utilization",
+            "value": "0%",
+            "trend": { "value": 0, "date_range": "last 7 days", "pct_unit": 1 },
+            "peak": { "name": "Peak Utilization", "value": 0, "pct_unit": 1 }
+          }
+        },
+        {
+          "name": "Wednesday",
+          "label": "We",
+          "utilization": 0,
+          "peak_utilization": 0,
+          "tooltip": {
+            "name": "Utilization",
+            "value": "0%",
+            "trend": { "value": 0, "date_range": "last 7 days", "pct_unit": 1 },
+            "peak": { "name": "Peak Utilization", "value": 0, "pct_unit": 1 }
+          }
+        },
+        {
+          "name": "Thursday",
+          "label": "Th",
+          "utilization": 0,
+          "peak_utilization": 0,
+          "tooltip": {
+            "name": "Utilization",
+            "value": "0%",
+            "trend": { "value": 0, "date_range": "last 7 days", "pct_unit": 1 },
+            "peak": { "name": "Peak Utilization", "value": 0, "pct_unit": 1 }
+          }
+        },
+        {
+          "name": "Friday",
+          "label": "Fr",
+          "utilization": 0,
+          "peak_utilization": 0,
+          "tooltip": {
+            "name": "Utilization",
+            "value": "0%",
+            "trend": { "value": 0, "date_range": "last 7 days", "pct_unit": 1 },
+            "peak": { "name": "Peak Utilization", "value": 0, "pct_unit": 1 }
+          }
+        }
+      ]
+    },
+    {
+      "type": "scatter_chart",
+      "position": 8,
+      "description": "Shows the comparison of average occupancy vs utilization for each space, for the selected period of time. Click on a space for more detail",
+      "help": "\u003cp\u003eThis chart compares \u003cstrong\u003eOccupancy\u003c/strong\u003e and \u003cstrong\u003eUtilization\u003c/strong\u003e rates for each space easily identify which spaces need improvement.\u003c/p\u003e\n\u003cp\u003e•  \u003cstrong\u003eUtilization\u003c/strong\u003e - helps answer the question \"How is the space utilized compared to its capacity\"\u003c/p\u003e\n\u003cp\u003e•  \u003cstrong\u003eOccupancy\u003c/strong\u003e - helps answer the question \"How often is the space used?\"\u003c/p\u003e\n\u003cp class='square-explanation'\u003e\u003cspan class='yellow-circle'\u003e\u003c/span\u003eI - over-utilized and under-occupied\u003c/p\u003e\n\u003cp class='square-explanation'\u003e\u003cspan class='green-circle'\u003e\u003c/span\u003eII - over-utilized and over-occupied\u003c/p\u003e\n\u003cp class='square-explanation'\u003e\u003cspan class='yellow-circle'\u003e\u003c/span\u003eIII - under-utilized and over-occupied\u003c/p\u003e\n\u003cp class='square-explanation'\u003e\u003cspan class='red-circle'\u003e\u003c/span\u003eIV - under-utilized and under-occupied\u003c/p\u003e\n",
+      "title": "How do your spaces compare?",
+      "target_utilisation": 21,
+      "data_keys": [],
+      "labels": {},
+      "data": [
+        {
+          "utilization": 0,
+          "occupancy": 0,
+          "kind": "conference_room",
+          "space_id": 18716,
+          "tooltip": [
+            { "name": "Occupancy", "value": "0%" },
+            { "name": "Utilization", "value": "0%" }
+          ]
+        },
+        {
+          "utilization": 0,
+          "occupancy": 0,
+          "kind": "conference_room",
+          "space_id": 18713,
+          "tooltip": [
+            { "name": "Occupancy", "value": "0%" },
+            { "name": "Utilization", "value": "0%" }
+          ]
+        },
+        {
+          "utilization": 0,
+          "occupancy": 0,
+          "kind": "conference_room",
+          "space_id": 18715,
+          "tooltip": [
+            { "name": "Occupancy", "value": "0%" },
+            { "name": "Utilization", "value": "0%" }
+          ]
+        },
+        {
+          "utilization": 0,
+          "occupancy": 0,
+          "kind": "conference_room",
+          "space_id": 18714,
+          "tooltip": [
+            { "name": "Occupancy", "value": "0%" },
+            { "name": "Utilization", "value": "0%" }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "stacked_area_chart",
+      "position": 9,
+      "description": "\u003cspan\u003eShows information about average spaces utilization or occupancy throughout a week/day, over selected period.\n\u003cstrong\u003eOccupancy\u003c/strong\u003e - helps answer the question \"Are my spaces being used?\"\n\u003cstrong\u003eUtilization\u003c/strong\u003e - helps answer the question \"Are my spaces being used to capacity?\u003c/span\u003e\n",
+      "help": "\u003cp\u003eThis chart highlights how your space is used over the hours of the average work day or work week.\nThe chart shows an \u003cstrong\u003eaverage\u003c/strong\u003e percentage \u003cstrong\u003eutilization\u003c/strong\u003e or \u003cstrong\u003eoccupancy\u003c/strong\u003e of the conference rooms for each working hours in a selected period. You can analyze an \u003cstrong\u003eaverage\u003c/strong\u003e for a \u003cstrong\u003eweek\u003c/strong\u003e or a \u003cstrong\u003esingle day\u003c/strong\u003e. It displays data only for \u003cstrong\u003eworking days and hours.\u003c/strong\u003e\u003c/p\u003e\n\u003cp\u003eYou can switch between \u003cstrong\u003eutilization\u003c/strong\u003e and \u003cstrong\u003eoccupancy\u003c/strong\u003e.\u003c/p\u003e\n\u003cp\u003e•  \u003cstrong\u003eOccupancy\u003c/strong\u003e - helps answer the question \"Are my spaces being used?\"\u003c/p\u003e\n\u003cp\u003e•  \u003cstrong\u003eUtilization\u003c/strong\u003e - helps answer the question \"Are my spaces being used to capacity?\u003c/p\u003e\n",
+      "title": "How is your space used during an average day?",
+      "target_utilisation": 21,
+      "data_keys": ["utilization", "occupancy"],
+      "labels": {},
+      "data": {
+        "week": [
+          {
+            "hour": "9 am",
+            "value": { "utilization": 0, "occupancy": 0 },
+            "peak": { "utilization": 0, "occupancy": 0 },
+            "tooltip": {
+              "utilization": [
+                {
+                  "type": "Utilization",
+                  "value": "0%",
+                  "peak": {
+                    "name": "Peak Utilization",
+                    "value": 0,
+                    "pct_unit": 1
+                  }
+                },
+                { "hour": "9 am" }
+              ],
+              "occupancy": [
+                {
+                  "type": "Occupancy",
+                  "value": "0%",
+                  "peak": {
+                    "name": "Peak Occupancy",
+                    "value": 0,
+                    "pct_unit": 1
+                  }
+                },
+                { "hour": "9 am" }
+              ]
+            }
+          },
+          {
+            "hour": "10 am",
+            "value": { "utilization": 0, "occupancy": 0 },
+            "peak": { "utilization": 0, "occupancy": 0 },
+            "tooltip": {
+              "utilization": [
+                {
+                  "type": "Utilization",
+                  "value": "0%",
+                  "peak": {
+                    "name": "Peak Utilization",
+                    "value": 0,
+                    "pct_unit": 1
+                  }
+                },
+                { "hour": "10 am" }
+              ],
+              "occupancy": [
+                {
+                  "type": "Occupancy",
+                  "value": "0%",
+                  "peak": {
+                    "name": "Peak Occupancy",
+                    "value": 0,
+                    "pct_unit": 1
+                  }
+                },
+                { "hour": "10 am" }
+              ]
+            }
+          },
+          {
+            "hour": "11 am",
+            "value": { "utilization": 0, "occupancy": 0 },
+            "peak": { "utilization": 0, "occupancy": 0 },
+            "tooltip": {
+              "utilization": [
+                {
+                  "type": "Utilization",
+                  "value": "0%",
+                  "peak": {
+                    "name": "Peak Utilization",
+                    "value": 0,
+                    "pct_unit": 1
+                  }
+                },
+                { "hour": "11 am" }
+              ],
+              "occupancy": [
+                {
+                  "type": "Occupancy",
+                  "value": "0%",
+                  "peak": {
+                    "name": "Peak Occupancy",
+                    "value": 0,
+                    "pct_unit": 1
+                  }
+                },
+                { "hour": "11 am" }
+              ]
+            }
+          },
+          {
+            "hour": "12 pm",
+            "value": { "utilization": 0, "occupancy": 0 },
+            "peak": { "utilization": 0, "occupancy": 0 },
+            "tooltip": {
+              "utilization": [
+                {
+                  "type": "Utilization",
+                  "value": "0%",
+                  "peak": {
+                    "name": "Peak Utilization",
+                    "value": 0,
+                    "pct_unit": 1
+                  }
+                },
+                { "hour": "12 pm" }
+              ],
+              "occupancy": [
+                {
+                  "type": "Occupancy",
+                  "value": "0%",
+                  "peak": {
+                    "name": "Peak Occupancy",
+                    "value": 0,
+                    "pct_unit": 1
+                  }
+                },
+                { "hour": "12 pm" }
+              ]
+            }
+          },
+          {
+            "hour": "1 pm",
+            "value": { "utilization": 0, "occupancy": 0 },
+            "peak": { "utilization": 0, "occupancy": 0 },
+            "tooltip": {
+              "utilization": [
+                {
+                  "type": "Utilization",
+                  "value": "0%",
+                  "peak": {
+                    "name": "Peak Utilization",
+                    "value": 0,
+                    "pct_unit": 1
+                  }
+                },
+                { "hour": "1 pm" }
+              ],
+              "occupancy": [
+                {
+                  "type": "Occupancy",
+                  "value": "0%",
+                  "peak": {
+                    "name": "Peak Occupancy",
+                    "value": 0,
+                    "pct_unit": 1
+                  }
+                },
+                { "hour": "1 pm" }
+              ]
+            }
+          },
+          {
+            "hour": "2 pm",
+            "value": { "utilization": 0, "occupancy": 0 },
+            "peak": { "utilization": 0, "occupancy": 0 },
+            "tooltip": {
+              "utilization": [
+                {
+                  "type": "Utilization",
+                  "value": "0%",
+                  "peak": {
+                    "name": "Peak Utilization",
+                    "value": 0,
+                    "pct_unit": 1
+                  }
+                },
+                { "hour": "2 pm" }
+              ],
+              "occupancy": [
+                {
+                  "type": "Occupancy",
+                  "value": "0%",
+                  "peak": {
+                    "name": "Peak Occupancy",
+                    "value": 0,
+                    "pct_unit": 1
+                  }
+                },
+                { "hour": "2 pm" }
+              ]
+            }
+          },
+          {
+            "hour": "3 pm",
+            "value": { "utilization": 0, "occupancy": 0 },
+            "peak": { "utilization": 0, "occupancy": 0 },
+            "tooltip": {
+              "utilization": [
+                {
+                  "type": "Utilization",
+                  "value": "0%",
+                  "peak": {
+                    "name": "Peak Utilization",
+                    "value": 0,
+                    "pct_unit": 1
+                  }
+                },
+                { "hour": "3 pm" }
+              ],
+              "occupancy": [
+                {
+                  "type": "Occupancy",
+                  "value": "0%",
+                  "peak": {
+                    "name": "Peak Occupancy",
+                    "value": 0,
+                    "pct_unit": 1
+                  }
+                },
+                { "hour": "3 pm" }
+              ]
+            }
+          },
+          {
+            "hour": "4 pm",
+            "value": { "utilization": 0, "occupancy": 0 },
+            "peak": { "utilization": 0, "occupancy": 0 },
+            "tooltip": {
+              "utilization": [
+                {
+                  "type": "Utilization",
+                  "value": "0%",
+                  "peak": {
+                    "name": "Peak Utilization",
+                    "value": 0,
+                    "pct_unit": 1
+                  }
+                },
+                { "hour": "4 pm" }
+              ],
+              "occupancy": [
+                {
+                  "type": "Occupancy",
+                  "value": "0%",
+                  "peak": {
+                    "name": "Peak Occupancy",
+                    "value": 0,
+                    "pct_unit": 1
+                  }
+                },
+                { "hour": "4 pm" }
+              ]
+            }
+          },
+          {
+            "hour": "5 pm",
+            "value": { "utilization": 0, "occupancy": 0 },
+            "peak": { "utilization": 0, "occupancy": 0 },
+            "tooltip": {
+              "utilization": [
+                {
+                  "type": "Utilization",
+                  "value": "0%",
+                  "peak": {
+                    "name": "Peak Utilization",
+                    "value": 0,
+                    "pct_unit": 1
+                  }
+                },
+                { "hour": "5 pm" }
+              ],
+              "occupancy": [
+                {
+                  "type": "Occupancy",
+                  "value": "0%",
+                  "peak": {
+                    "name": "Peak Occupancy",
+                    "value": 0,
+                    "pct_unit": 1
+                  }
+                },
+                { "hour": "5 pm" }
+              ]
+            }
+          }
+        ]
+      }
+    },
+    {
+      "type": "line_chart",
+      "position": 10,
+      "description": "Linear chart shows utilization/occupancy for each day in selected period.",
+      "help": "\u003cp\u003eBy this chart, you can see how usage changes over time. This chart shows the \u003cstrong\u003eaverage\u003c/strong\u003e percentage \u003cstrong\u003eutilization\u003c/strong\u003e or \u003cstrong\u003eoccupancy\u003c/strong\u003e in your conference rooms for each day in a selected period. You can filter \u003cstrong\u003edata hourly/daily/weekly/monthly\u003c/strong\u003e and switch between \u003cstrong\u003eutilization/occupancy\u003c/strong\u003e. The view will switch automatically based on the selected period: for a \u003cstrong\u003eday\u003c/strong\u003e data are presented \u003cstrong\u003ehourly\u003c/strong\u003e, for a \u003cstrong\u003eweek - daily\u003c/strong\u003e, for a \u003cstrong\u003emonth - weekly\u003c/strong\u003e, for a \u003cstrong\u003eperiod longer than three months - monthly\u003c/strong\u003e. It displays data only for \u003cstrong\u003eworking days and hours\u003c/strong\u003e.\u003c/p\u003e\n\u003cp\u003eYou can switch between \u003cstrong\u003eutilization\u003c/strong\u003e and \u003cstrong\u003eoccupancy\u003c/strong\u003e.\u003c/p\u003e\n\u003cp\u003e•  \u003cstrong\u003eUtilization\u003c/strong\u003e - is a number of people in selected spaces divided by the capacity of these spaces.\u003c/p\u003e\n\u003cp\u003e•  \u003cstrong\u003eOccupancy\u003c/strong\u003e - is the ratio between the time when space was busy and time when space is available.\u003c/p\u003e\n",
+      "title": "How is your usage trending over time?",
+      "target_utilisation": 21,
+      "data_keys": ["utilization", "occupancy"],
+      "labels": {},
+      "data": { "hourly": [], "daily": [] }
+    }
+  ]
+}

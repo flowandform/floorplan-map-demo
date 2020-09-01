@@ -36,3 +36,15 @@
     transform: rotate(360deg);
   }
 }
+
+.mapboxgl-popup-content {
+  border-radius: 50% !important;
+  padding: 10px 10px 10px !important;
+}
+
+.popup {
+  display: block;
+  height: 120px;
+  width: 120px;
+  border-radius: 50%;
+}
